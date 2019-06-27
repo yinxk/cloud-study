@@ -10,7 +10,7 @@
 
     <modules>
         <module>course</module>
-        <module>service-ribbon</module>
+        <module>service-ribbon</module><module>service-feign</module>
     </modules>
 
 
