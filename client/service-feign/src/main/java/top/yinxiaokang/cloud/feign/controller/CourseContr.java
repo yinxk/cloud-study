@@ -11,6 +11,7 @@ public class CourseContr {
     @Autowired
     private CourseFeign courseFeign;
 
+    @RequestMapping
     public String info() {
         return courseFeign.info();
     }
