@@ -4,21 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>eureka-server</artifactId>
-    <packaging>jar</packaging>
-
+    <artifactId>service-ribbon</artifactId>
 
     <parent>
-        <artifactId>cloud-study</artifactId>
+        <artifactId>client</artifactId>
         <groupId>top.yinxiaokang</groupId>
         <version>1.0.0</version>
     </parent>
 
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
         </dependency>
     </dependencies>
-    
+
 </project>
